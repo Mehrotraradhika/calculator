@@ -20,4 +20,6 @@ if (option in[1,2,3,4]):
     else:
         print("Invalid operations entered")
        
-    print("The result of operations is {}".format(result))
+    print("The result of operations is "  , result)
+else :
+    print("You chose invalid option")
